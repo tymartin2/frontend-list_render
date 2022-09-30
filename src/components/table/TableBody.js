@@ -12,11 +12,11 @@
 	    	return(
 	    		<tr id="trow">
 	    		    <td className="row-items"> </td>
-	    		    <NamesCell />
+	    		    <NamesCell key={Math.random()} names={client}/>
 	    		    <td className="row-items"></td>
-	    		    <TargetsCell key={client.name} targets={client}/>
-	    		    <ActualsCell key={client.name} actuals={client}/>
-	    		    <TotalsCell key={client.name} totals={client}/>
+	    		    <TargetsCell key={Math.random()} targets={client}/>
+	    		    <ActualsCell key={Math.random()} actuals={client}/>
+	    		    <TotalsCell key={Math.random()} totals={client}/>
 	    		</tr>
 	    	);
 	    });

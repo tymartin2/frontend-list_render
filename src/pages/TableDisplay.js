@@ -8,7 +8,7 @@
 	export default function TableDisplay() {
 		return(
 			<Container>
-			    <Table responsive id="table">
+			    <Table hover responsive id="table">
 					<TableHead />
 					<TableBody />
 				</Table>

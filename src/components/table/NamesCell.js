@@ -1,10 +1,11 @@
 //Build Component
-	export default function NamesCell() {
+	export default function NamesCell({names}) {
    
-       
+        const { name } = names; 
+
 		return(
-			<td id="data-actual">
-			   Arne Die
+			<td id="data-name">
+			   <a href="/">{name}</a>
 			</td>
 		);
 	}; 

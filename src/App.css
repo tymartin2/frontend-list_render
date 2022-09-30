@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+#data-name a {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px; 
+  padding: 8px 8px;
+  width: 100px;
+}
 
 #data-actual > #actual-fail {
   background: #ED5E61 !important;
