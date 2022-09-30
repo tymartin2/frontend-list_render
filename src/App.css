@@ -6,13 +6,16 @@
   box-sizing: border-box;
 }
 
+
 #data-name a {
   font-family: 'Open Sans';
   font-size: 14px;
   font-weight: 400;
   line-height: 19.07px; 
   padding: 8px 8px;
-  width: 100px;
+  width: 100%;
+  text-decoration: none;
+  color: #5A5A5A;
 }
 
 #data-actual > #actual-fail {
@@ -45,6 +48,11 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 19.07px; 
+
+}
+
+#trow {
+  cursor: pointer;
 }
 
 .header span {
