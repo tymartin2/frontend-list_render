@@ -1,5 +1,4 @@
-import Table from 'react-bootstrap/Table';
-
+//Component
 export default function TableHead() {
 	return(
 	   <thead className="header">

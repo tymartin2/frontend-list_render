@@ -1,6 +1,7 @@
 //Modules and Dependencies
 	import { Container, Table } from 'react-bootstrap'; 
 	import TableHead from '../components/table/TableHead'; 
+	import TableBody from '../components/table/TableBody'; 
 
 
 //Build Component
@@ -9,6 +10,7 @@
 			<Container>
 			    <Table responsive id="table">
 					<TableHead />
+					<TableBody />
 				</Table>
 			</Container>
 		); 

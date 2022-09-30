@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+#trow span {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px; 
+}
+
 .header span {
   display: flex;
   flex-direction: column;
