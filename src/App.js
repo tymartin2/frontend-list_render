@@ -1,10 +1,14 @@
-import './App.css';
+//Modules and Dependencies
+  import './App.css';
+  import { Container } from 'react-bootstrap'; 
+  import TableDisplay from './pages/TableDisplay'; 
 
-function App() {
-  return (
-    <>
-    </>
-  );
-}
+//Build Entry Point
+  export default function App() {
+    return (
+      <Container>
+          <TableDisplay />
+      </Container>
+    );
+  }
 
-export default App;

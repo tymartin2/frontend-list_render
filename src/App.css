@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*#table {
+ 
+}*/
+
+.header  {
+  border-radius: 4px 4px 0px 0px;
+  background: #F8F8F8;
+  flex: none;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.header > .header-items {
+  width: 52px;
+  height: 48px;
+}
+
