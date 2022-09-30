@@ -1,23 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/*#table {
- 
-}*/
-
-.header  {
-  border-radius: 4px 4px 0px 0px;
-  background: #F8F8F8;
-  flex: none;
-  align-self: stretch;
-  flex-grow: 0;
-}
-
-.header > .header-items {
+.header span {
+  display: flex;
+  flex-direction: column;
   width: 52px;
   height: 48px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  color: #5A5A5A;
+  width: 100px;
+}
+
+.header .header-items {
+  padding: 7px;
+  width: 52px;
+  height: 48px;
+}
+
+.header {
+  background: #F8F8F8;
 }
 
