@@ -2,13 +2,13 @@ const clients = [
   {
 	  "name":"Lauren Vickers",
 	  "target":90,
-	  "actual":95,
+	  "actual":45,
 	  "points":69
   },
   {
 	  "name":"Shazia Darby",
 	  "target":80,
-	  "actual":88,
+	  "actual":43,
 	  "points":26
   },
   {
@@ -20,7 +20,7 @@ const clients = [
   {
 	  "name":"Clair Newton",
 	  "target":80,
-	  "actual":22,
+	  "actual":91,
 	  "points":82
   },
   {

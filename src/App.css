@@ -6,6 +6,32 @@
   box-sizing: border-box;
 }
 
+
+#data-actual > #actual-fail {
+  background: #ED5E61 !important;
+  border-radius: 4px !important;
+}
+
+#data-actual > #actual-pass {
+  background: #59B77A !important;
+  border-radius: 4px !important;
+}
+
+#data-total span {
+  padding: 35px 35px;
+  width: 100px;
+}
+
+#data-target span {
+  padding: 35px 35px;
+  width: 100px;
+}
+
+#data-actual span {
+  border-radius: 4px;
+  width: 100px;
+}
+
 #trow span {
   font-family: 'Open Sans';
   font-size: 14px;

@@ -1,6 +1,9 @@
 //Modules and Dependencies
 	import clients from '../../data/clients';
-	import TableCell from './TableCell';
+	import ActualsCell from './ActualsCell';
+	import TargetsCell from './TargetsCell';
+	import TotalsCell from './TotalsCell';
+	import NamesCell from './NamesCell';
 
 //Build Component
 	export default function TableBody() {
@@ -9,19 +12,11 @@
 	    	return(
 	    		<tr id="trow">
 	    		    <td className="row-items"> </td>
-	    		    <td className="row-items">
-	    		    	<span> {client.name} </span>
-	    		    </td>
+	    		    <NamesCell />
 	    		    <td className="row-items"></td>
-	    		    <td className="row-items">
-	    		    	<span> {client.target}% </span>
-	    		    </td>
-	    		    <td className="row-items">
-	    		    	<TableCell />
-	    		    </td>
-	    		    <td className="row-items">
-	    		    	<span> {client.points} </span>
-	    		    </td>
+	    		    <TargetsCell key={client.name} targets={client}/>
+	    		    <ActualsCell key={client.name} actuals={client}/>
+	    		    <TotalsCell key={client.name} totals={client}/>
 	    		</tr>
 	    	);
 	    });
